@@ -1,8 +1,3 @@
-# codeBlanch
-
-Original App Design Project - README Template
-===
-
 # Code Blanch
 
 ## Table of Contents
