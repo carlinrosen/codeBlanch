@@ -81,7 +81,70 @@ Yelp style app designed to specifically rate the food in MHC's Blanchard Hall. I
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+Review
+| Property    | Type   | Description                         |
+| ----------- | ------ | ----------------------------------- |
+| userName    | String | name of the logged in user          |
+| reviewText  | String | the review left by the user         |
+| reviewImage | Image  | optional image uploaded by the user |
+| dateUploaded | DateTime | the date the review was uploaded |
+
+Community tab
+
+| Property     | Type   | Description                                 |
+| ------------ | ------ | ------------------------------------------- |
+| userName     | String | username of the user the uploaded the combo |
+| comboName    | String | name of the combo given by the user|
+| comboImage   | Image  | optional image uploaded by the user |
+| comboDescrip | String | Description of the combo given by the user  |
+| postType | String | The type of post |
+
+Categories
+
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| classicsButton | Button | Button that takes you to classics menu |
+| grillButton | Button | Button that takes you to grill menu |
+| globalButton | Button | Button that takes you to global menu |
+| wokButton | Button | Button that takes you to wok menu |
+| hallalButton | Button | Button that takes you to hallal menu |
+| kosherButton | Button | Button that takes you to kosher menu |
+| harvestButton| Button | Button that takes you to harvest menu|
+
+Account
+
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| remainingSwipes | String | A number with the amount of swipes the user has left|
+| favImage | Image | the picture of your favorited foods |
+| savedFoods | String | the name of food you have saved |
+| ratedFood | String | the name of foods you have rated |
+
+Login screen
+
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| username | textField | Text field to enter the username |
+| password |textField | Text field to enter a password |
+| loginButton | Button | Button to login |
+| registerButton | Button | Button to register |
+
+Item
+
+| Property | Type | Description |
+| -------- | ---- | ----------- |
+| foodLabel | String | Name of the food |
+| ingredientLabel | String | Ingredients in the food |
+| addReview | Button | Button that takes you to review page |
+| saveFood | Button | Button to save the food |
+
+Main Screen
+
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| loginPageButton | Button | Button that takes the user to the login/register page |
+| viewMenuButton | Button | Button that takes the user to the menu |
+
 ### Models
 [Add table of models]
 ### Networking
